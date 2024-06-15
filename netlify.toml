@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"
   node_version = "14.x"  # Adjust based on compatibility
-
+  base=frontend
 
 [dev]
   command = "npm start --prefix frontend"
