@@ -11,6 +11,7 @@ import userRoutes from "./routes/userRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
 import uploadRoutes from "./routes/uploadRoutes.js";
 import supplierRoutes from "./routes/supplierRoutes.js";
+import cors from "cors";
 
 dotenv.config("./../.env");
 
@@ -23,6 +24,7 @@ if (process.env.NODE_ENV === "development") {
 }
 
 app.use(express.json());
+app.use(cors());
 
 app.use("/api", productRoutes);
 app.use("/api/users", userRoutes);
