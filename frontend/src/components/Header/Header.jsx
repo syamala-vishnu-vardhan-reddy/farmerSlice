@@ -40,12 +40,33 @@ const Header = () => {
           </LinkContainer>
           <Nav>
             <a
-              href="https://f6ca-43-227-132-242.ngrok-free.app"
+              href="https://1cf0-43-227-132-242.ngrok-free.app/crop-recommend"
               target="_blank"
               rel="noopener noreferrer"
-              className="nav-cal"
+              className="nav-call"
             >
-              SUGGESTIONS
+              CROPS
+            </a>
+          </Nav>
+          <Nav>
+            <a
+              href="https://1cf0-43-227-132-242.ngrok-free.app/fertilizer"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-call"
+              styles={{ margin: "10px" }}
+            >
+              FERTILIZERS
+            </a>
+          </Nav>
+          <Nav>
+            <a
+              href="https://1cf0-43-227-132-242.ngrok-free.app/disease-predict"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-call"
+            >
+              DISEASES
             </a>
           </Nav>
 

@@ -74,7 +74,7 @@ const Footer = () => {
               />
               <p>
                 <Link to="/farmer" className="dark-grey-text">
-                  Famer
+                  Farmer
                 </Link>
               </p>
               <p>
@@ -102,16 +102,17 @@ const Footer = () => {
                 style={{ width: "60px" }}
               />
               <p>
-                <i className="fa fa-home mr-3" /> Colombo, Sri Lanka
+                <i className="fa fa-home mr-3" /> VVIT,Nambur.
               </p>
               <p>
-                <i className="fa fa-envelope mr-3" /> info@example.com
+                <i className="fa fa-envelope mr-3" /> vvishnusyamala@gmail.com
               </p>
               <p>
-                <i className="fa fa-phone mr-3" /> + 01 234 567 88
+                <i className="fa fa-phone mr-3" />
+                +91 8978712843
               </p>
               <p>
-                <i className="fa fa-print mr-3" /> + 01 234 567 89
+                <i className="fa fa-print mr-3" /> +91 8374149629
               </p>
             </MDBCol>
             <MDBCol md="3" lg="4" xl="3" className="mb-4 dark-grey-text">
