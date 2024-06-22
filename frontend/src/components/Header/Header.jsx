@@ -40,7 +40,7 @@ const Header = () => {
           </LinkContainer>
           <Nav>
             <a
-              href="https://1cf0-43-227-132-242.ngrok-free.app/crop-recommend"
+              href="http://127.0.0.1:5000/crop-recommend"
               target="_blank"
               rel="noopener noreferrer"
               className="nav-call"
@@ -50,7 +50,7 @@ const Header = () => {
           </Nav>
           <Nav>
             <a
-              href="https://1cf0-43-227-132-242.ngrok-free.app/fertilizer"
+              href="http://127.0.0.1:5000/fertilizer"
               target="_blank"
               rel="noopener noreferrer"
               className="nav-call"
@@ -61,7 +61,7 @@ const Header = () => {
           </Nav>
           <Nav>
             <a
-              href="https://1cf0-43-227-132-242.ngrok-free.app/disease-predict"
+              href="http://127.0.0.1:5000/disease-predict"
               target="_blank"
               rel="noopener noreferrer"
               className="nav-call"
