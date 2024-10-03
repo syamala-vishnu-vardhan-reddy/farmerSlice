@@ -49,19 +49,19 @@ const Footer = () => {
           <MDBRow className="mt-3">
             <MDBCol md="3" lg="3    " xl="3" className="mb-4 dark-grey-text">
               <h6 className="text-uppercase font-weight-bold">
-                <strong>Agroic</strong>
+                <strong>AGML</strong>
               </h6>
               <hr
                 className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
                 style={{ width: "60px" }}
               />
               <p>
-                The purpose of Agroic is to provide connections between
-                different roles in the agriculture industry. As the farmers are
-                not getting a fair price for their goods because of contractors.
-                This app removes the requirement of contractors for farmers.
-                Farmers can buy their required needs for farming from Sellers
-                and they can also sell their products to the Consumers
+                The main objective of AgMl is to help farmers to perform
+                agro-marketing and suggesting best practice in farming process
+                using machine learning.It enables the farmers to purchase seeds
+                and tools directly from sellers and also they can sell their
+                products.Our project creates the partnership between farmers and
+                consumers.
               </p>
             </MDBCol>
             <MDBCol md="2" lg="2" xl="2" className="mb-4 dark-grey-text">
