@@ -34,7 +34,6 @@ import OrderListScreen from "./screens/Dashboard/OrderListScreen";
 import HarvestScreen from "./screens/Dashboard/HarvestScreen";
 import FarmerProduct from "./screens/FarmerProducts/FarmerProducts";
 import MapScreen from "./screens/Dashboard/MapScreen";
-import WeatherApp from "./components/weather/weather";
 
 const Layout = () => {
   return (
@@ -59,7 +58,6 @@ const Layout = () => {
           <Route exact path="/placeorder" component={PlaceOrder} />
           <Route exact path="/cart/:id?" component={Cart} />
           <Route path="/order/:id" component={OrderScreen} />
-          <Route exact path="/weather" component={WeatherApp} />
 
           <Route exact path="/admin/userList" component={UserListScreen} />
           <Route exact path="/admin/dashboard" component={DashboardScreen} />

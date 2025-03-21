@@ -53,18 +53,6 @@ const FarmerScreen = () => {
                 </LinkContainer>
               </Card.Body>
             </Card>
-            <Card border="primary" style={{ width: "25rem" }}>
-              <Card.Body>
-                <Card.Title className="card-titile">
-                  YOU CAN SEE YOUR WEATHER FORCAST HEAR.
-                </Card.Title>
-                <LinkContainer to="/weather">
-                  <Button className="btn-explore btn-md m-2">
-                    EXPLORE MORE
-                  </Button>
-                </LinkContainer>
-              </Card.Body>
-            </Card>
           </CardDeck>
         </Row>
       </Container>
